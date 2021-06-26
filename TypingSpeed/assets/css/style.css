@@ -1,0 +1,103 @@
+@font-face {
+     font-family: "monolisa_medium";
+          src:url("fonts/MonoLisa-Medium.otf") format('opentype');
+          src:url("fonts/MonoLisa-Medium.ttf") format('truetype');
+}
+
+:root{
+  --gray-color: #292a2f;
+  --pink-color: #ff79b3;
+  --orange-color: #ef7b6b;
+  --beige-color: #E2D6CA;
+  --lightgray-color: #84848c;
+  --body-font: "monolisa_medium";
+  --normal-font-size: 20px;
+}
+
+body{
+    background-color: var(--gray-color);
+    font-family: var(--body-font);
+    font-size: var(--normal-font-size);
+}
+
+textarea{
+    color: var(--beige-color);
+}
+
+.logo{
+    position:fixed;
+    left:10vw;
+    top:0;
+    height:20vh;
+    width:20vw;
+}
+
+.container{
+    margin: 0;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    -ms-transform: translate(-60%, -40%);
+    transform: translate(-50%, -50%);
+}
+
+.quote{
+    user-select: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    font-family: var(--body-font);
+    position: absolute;
+    font-size: var(--normal-font-size);
+    border: 1px solid transparent;
+    border-radius: 0.5rem;
+    color: var(--lightgray-color);
+    outline: none;
+    width: 50vw;
+    height: 30vh;
+    resize: none;
+    padding: 0.5rem 1rem;
+}
+
+.input{
+    color: transparent;
+    caret-color: transparent;
+    caret-shape: block;
+    font-family: var(--body-font);
+    font-size: var(--normal-font-size);
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: 0.5rem;
+    outline: none;
+    width: 50vw;
+    height: 30vh;
+    resize: none;
+    padding: 0.5rem 1rem;
+}
+
+.right {
+    color: var(--beige-color);
+}
+
+.wrong {
+    color: #c94754;
+    text-decoration: underline;
+}
+
+.reload {
+    background-color: transparent;
+    font-size:25px;
+    color: var(--lightgray-color);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.reload:hover {
+    color: var(--beige-color);
+}
+
+
