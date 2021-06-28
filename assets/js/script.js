@@ -1,4 +1,4 @@
-const API_URL = 'http://api.quotable.io/random'
+const API_URL = 'https://api.quotable.io/random'
 const data = document.getElementById('quote')
 const response = document.getElementById('text')
 const timerElement = document.getElementById('timer')
