@@ -20,13 +20,28 @@ body{
     font-size: var(--normal-font-size);
 }
 
+button {
+    padding:0;
+    font-family: var(--body-font);
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+}
+
 textarea{
-    color: var(--beige-color);
+    color: var(--orange-color);
 }
 
 .logo{
     height:35px;
     width:242.55px;
+}
+
+.icon-header:hover{
+    color: var(--orange-color);
 }
 
 .content{
@@ -37,7 +52,7 @@ textarea{
 .timer {
   position: relative;
   font-size: 1.5rem;
-  color: var(--beige-color);
+  color: var(--orange-color);
   padding-left: 1.3rem;
   margin-bottom: 2 rem;
 }
@@ -64,7 +79,7 @@ textarea{
     margin-top: 5rem;
     padding-top: 5rem;
     display:flex;
-    color: var(--beige-color);
+    color: var(--orange-color);
     margin: 0;
     position: absolute;
     top: 60%;
@@ -75,6 +90,7 @@ textarea{
 }
 
 .quote{
+    line-height: 2.3rem;
     user-select: none;
     -webkit-user-select: none;
     -khtml-user-select: none;
@@ -110,7 +126,7 @@ textarea{
 }
 
 .right {
-    color: var(--beige-color);
+    color: var(--orange-color);
 }
 
 .wrong {
@@ -129,8 +145,8 @@ textarea{
     transform: translate(-50%, -50%);
 }
 
-.reload:hover {
-    color: var(--beige-color);
+.reload:hover{
+    color: var(--orange-color);
 }
 
 .icon-header{
@@ -159,7 +175,7 @@ textarea{
 }
 
 .footertext:hover{
-    color: var(--beige-color);
+    color: var(--orange-color);
 }
 
 .version{
