@@ -12,8 +12,8 @@
 <body>
     <header> <div class="container-header">
         <img class= "logo" src="assets/img/logo.png"></img>
-        <img class="icon-header" src="assets/img/about.png"></img>
-        <img class="icon-header" src="assets/img/settings.png"></img>
+        <button><img class="icon-header" src="assets/img/about.png"></img></button>
+        <button><img class="icon-header" src="assets/img/settings.png"></img></button>
     </div>
     </header>
     <div id="content">
@@ -21,8 +21,8 @@
         <span class="timer" id="timer"></span>
         <div class="quote" id="quote"></div>
         <textarea spellcheck="false" id="text" class="input" autofocus></textarea>
-        <span onclick="NewQuote()"class=reload>&#x21bb;
-            </span>
+        <button><span onclick="start()"class=reload>&#x21bb;
+            </span></button>
       </div>
       
       <div class="result" id="result">
@@ -36,11 +36,11 @@
       
       <footer class="footer" id="footer">
           <img style="vertical-align:middle" class="icon-footer" src="assets/img/github.png"></img>
-          <span class= "footertext" style="">Github</span>
+          <button><span class= "footertext" style="">Github</span></button>
           <img style="vertical-align:middle" class="icon-footer" src="assets/img/security.png"></img>
-          <span class= "footertext" style="">Security</span>
+          <button><span class= "footertext" style="">Security</span></button>
           <img style="vertical-align:middle" class="icon-footer" src="assets/img/donate.png"></img>
-          <span class= "footertext" style="">Donate</span>
+          <button><span class= "footertext" style="">Donate</span></button>
           <span class= "footertext" style="">|</span>
           <span class= "version" style="">v1.0.1</span>
           
