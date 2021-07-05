@@ -6,14 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/style.css">
     <script src="assets/js/script.js" defer></script>
+    <link href="https://use.fontawesome.com/releases/v5.0.7/css/all.css" rel="stylesheet">
     <title>Typing Speed</title>
 </head>
 
 <body>
     <header> <div class="container-header">
-        <img class= "logo" src="assets/img/logo.png"></img>
-        <button><img class="icon-header" src="assets/img/about.png"></img></button>
-        <button><img class="icon-header" src="assets/img/settings.png"></img></button>
+        <a href="index.html"><img class= "logo" src="assets/img/logo.png"</img></a>
+        <button><i class="fas fa-info"></i></button>
+        <button><i class="fas fa-cog"></i></button>
+
     </div>
     </header>
     <div id="content">
@@ -21,8 +23,8 @@
         <span class="timer" id="timer"></span>
         <div class="quote" id="quote"></div>
         <textarea spellcheck="false" id="text" class="input" autofocus></textarea>
-        <button><span onclick="start()"class=reload>&#x21bb;
-            </span></button>
+        <button><i class="fas fa-play" style="margin-left:23vw"></i></button>
+        <a href="index.html"><button><i class="fas fa-sync-alt"></i></button></a>
       </div>
       
       <div class="result" id="result">
