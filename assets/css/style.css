@@ -40,10 +40,6 @@ textarea{
     width:242.55px;
 }
 
-.icon-header:hover{
-    color: var(--orange-color);
-}
-
 .content{
   position: relative;
   min-height: 100vh;
@@ -104,7 +100,7 @@ textarea{
     color: var(--lightgray-color);
     outline: none;
     width: 50vw;
-    height: 30vh;
+    height: 20vh;
     resize: none;
     padding: 0.5rem 1rem;
 }
@@ -149,16 +145,20 @@ textarea{
     color: var(--orange-color);
 }
 
-.icon-header{
+
+.fas{
+    font-size: 15px;
     padding-left: 5px;
-    padding-bottom:7px;
-    height:2.16vh;
-    width:1.2vw;
+    color: var(--lightgray-color);
+}
+
+.fas:hover{
+    color: var(--orange-color);
 }
 
 .icon-footer{
-    height:2.16vh;
-    width:1.2vw;
+    height:15px;
+    width:15px;
 }
 
 .footer {
@@ -185,8 +185,7 @@ textarea{
 
 .container-header{
     position: absolute;
-    left: 17vw;
-    top: 5vh;
-    width: 98%;
+    padding-left:17vw;
+    padding-top:5vh;
     height: 3rem;
 }
