@@ -1,1 +1,4 @@
 # TypingSpeed
+
+
+## Installation
