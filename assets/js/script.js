@@ -10,7 +10,7 @@ const errors = document.getElementById('errors')
 
 let mistakes = 0
 let charactersTyped = 0
-let time= 10
+let time= 30
 let timeElapsed = 0
 let timeLeft=time
 
