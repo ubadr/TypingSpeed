@@ -2,7 +2,7 @@
 
 Practice and improve your typing speed and accuracy.
 
-TypingSpeed is live [here](https://arcbadr.github.io/TypingSpeed/).
+TypingSpeed is live [here](https://ubadr.github.io/TypingSpeed/).
 
 ![TypingSpeed](assets/img/website.png?raw=true)
 
@@ -11,7 +11,7 @@ TypingSpeed is live [here](https://arcbadr.github.io/TypingSpeed/).
 You can clone the repository to your local computer to easily fix merge conflicts, add or remove files, and push larger commits.
 
 ```
-$ git clone https://github.com/arcbadr/TypingSpeed
+$ git clone https://github.com/ubadr/TypingSpeed
 ```
 
 ## Documentation
