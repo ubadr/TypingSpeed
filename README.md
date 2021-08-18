@@ -1,5 +1,8 @@
 # TypingSpeed
 
+<img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/ubadr/TypingSpeed">
+
+
 Practice and improve your typing speed and accuracy.
 
 TypingSpeed is live [here](https://ubadr.github.io/TypingSpeed/).
