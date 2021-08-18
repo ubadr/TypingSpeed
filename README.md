@@ -2,7 +2,7 @@
 
 Practice and improve your typing speed and accuracy.
 
-Website is live [here](https://arcbadr.github.io/TypingSpeed/).
+TypingSpeed is live [here](https://arcbadr.github.io/TypingSpeed/).
 
 ## Cloning the repository
 
