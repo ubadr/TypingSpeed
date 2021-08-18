@@ -2,7 +2,7 @@
 
 Practice and improve your typing speed and accuracy.
 
-Website is live here(https://arcbadr.github.io/TypingSpeed/).
+Website is live [here](https://arcbadr.github.io/TypingSpeed/).
 
 ## Cloning the repository
 
@@ -24,4 +24,5 @@ Distributed under the MIT License. See LICENSE for more information.
 
 ## Resources
 https://indiatyping.com/index.php/typing-tips/typing-speed-calculation-formula
+<br/>
 https://monkeytype.com
