@@ -11,19 +11,33 @@
 </head>
 
 <body>
-    <header> <div class="container-header">
-        <a href="index.html"><img class= "logo" src="assets/img/logo.png"</img></a>
-        <button><i class="fas fa-info"></i></button>
-        <button><i class="fas fa-cog"></i></button>
 
-    </div>
+    <header> 
+      <div class="container-header">
+        <div class="logo-container">
+          <a href="index.html" class="logo" id="logo">TypingSpeed</a>
+        </div>
+      </div>
+
+      <div class="right-menu">
+          <button><a class="time-choice" id="time-choice1">15</a></button>
+          <button><a class="time-choice" id="time-choice2">30</a></button>
+          <button><a class="time-choice" id="time-choice3">45</a></button>
+          <button><a class="time-choice" id="time-choice4">60</a></button>
+          <br>
+          <button><a class="theme-choice" id="theme-choice1">matrix</a></button>
+          <button><a class="theme-choice" id="theme-choice2">terminal</a></button>
+          <button><a class="theme-choice" id="theme-choice3">miami</a></button>
+          <button><a class="theme-choice" id="theme-choice4">blueberry</a></button>
+      </div>
     </header>
+
     <div id="content">
       <div class="container" id="container">
         <span class="timer" id="timer"></span>
         <div class="quote" id="quote"></div>
         <textarea spellcheck="false" id="text" class="input" autofocus></textarea>
-        <button><i class="fas fa-play" style="margin-left:23vw"></i></button>
+        <button><i class="fas fa-pause" style="margin-left:23vw"></i></button>
         <a href="index.html"><button><i class="fas fa-sync-alt"></i></button></a>
       </div>
       
@@ -44,7 +58,7 @@
           <img style="vertical-align:middle" class="icon-footer" src="assets/img/donate.png"></img>
           <button><span class= "footertext" style="">Donate</span></button>
           <span class= "footertext" style="">|</span>
-          <span class= "version" style="">v1.0.1</span>
+          <span class= "version" style="">v1.0.3</span>
           
       </footer>
     </div>
