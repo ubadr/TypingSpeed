@@ -5,13 +5,18 @@
 }
 
 :root{
-  --gray-color: #292a2f;
+  --gray-color: #191a1b;
   --pink-color: #ff79b3;
-  --orange-color: #ef7b6b;
+  --green-color: #79a616;
   --beige-color: #E2D6CA;
-  --lightgray-color: #84848c;
+  --lightgray-color: #48494b;
   --body-font: "monolisa_medium";
   --normal-font-size: 20px;
+}
+
+a {
+  color: inherit; 
+  text-decoration: inherit;
 }
 
 body{
@@ -32,12 +37,53 @@ button {
 }
 
 textarea{
-    color: var(--orange-color);
+    color: var(--green-color);
 }
 
 .logo{
-    height:35px;
-    width:242.55px;
+	font-size: 30px;
+	color:var(--green-color);
+	opacity: .8;
+}
+
+.icons-container{
+	display:inline;
+}
+
+.logo-container{
+	display:inline;
+}
+
+.right-menu{
+	text-align: right;
+	font-size: 10px;
+	color: var(--lightgray-color);
+	position:absolute;
+	right:21vw;
+    top:8vh;
+}
+
+.active{
+	color: var(--green-color);
+}
+
+.time-choice{
+	font-size: 10.3px;
+	color: var(--lightgray-color);
+}
+
+.theme-choice{
+	font-size: 10.3px;
+	color: var(--lightgray-color);
+
+}
+
+.time-choice:hover{
+	color: var(--green-color);
+}
+
+.theme-choice:hover{
+  color: var(--green-color);
 }
 
 .content{
@@ -48,9 +94,9 @@ textarea{
 .timer {
   position: relative;
   font-size: 1.5rem;
-  color: var(--orange-color);
+  color: var(--green-color);
   padding-left: 1.3rem;
-  margin-bottom: 2 rem;
+  margin-bottom: 2rem;
 }
 
 .container{
@@ -75,7 +121,7 @@ textarea{
     margin-top: 5rem;
     padding-top: 5rem;
     display:flex;
-    color: var(--orange-color);
+    color: var(--green-color);
     margin: 0;
     position: absolute;
     top: 60%;
@@ -122,7 +168,7 @@ textarea{
 }
 
 .right {
-    color: var(--orange-color);
+    color: var(--green-color);
 }
 
 .wrong {
@@ -142,18 +188,18 @@ textarea{
 }
 
 .reload:hover{
-    color: var(--orange-color);
+    color: var(--green-color);
 }
 
 
 .fas{
     font-size: 15px;
-    padding-left: 5px;
+    padding-left: 1vw;
     color: var(--lightgray-color);
 }
 
 .fas:hover{
-    color: var(--orange-color);
+    color: var(--green-color);
 }
 
 .icon-footer{
@@ -175,7 +221,7 @@ textarea{
 }
 
 .footertext:hover{
-    color: var(--orange-color);
+    color: var(--green-color);
 }
 
 .version{
