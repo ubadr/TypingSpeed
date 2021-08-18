@@ -1,22 +1,27 @@
 # TypingSpeed
 
+Practice and improve your typing speed and accuracy.
 
-## Installation
+Website is live here(https://arcbadr.github.io/TypingSpeed/).
 
-Install the project locally using npm
+## Cloning the repository
+
+You can clone the repository to your local computer to easily fix merge conflicts, add or remove files, and push larger commits.
 
 ```
-$ cd ../TypingSpeed
-$ npm install
-$ npm start
+$ git clone https://github.com/arcbadr/TypingSpeed
 ```
 
-## Contibutions
+## Contributions
 
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 Please make sure to update tests as appropriate.
-
+    
 ## License
 
 Distributed under the MIT License. See LICENSE for more information.
+
+## Resources
+https://indiatyping.com/index.php/typing-tips/typing-speed-calculation-formula
+https://monkeytype.com
