@@ -4,7 +4,7 @@ Practice and improve your typing speed and accuracy.
 
 TypingSpeed is live [here](https://arcbadr.github.io/TypingSpeed/).
 
-![TypingSpeed](https://github.com/arcbadr/TypingSpeed/assets/img/website.png?raw=true)
+![TypingSpeed](assets/img/website.png?raw=true)
 
 ## Cloning the repository
 
