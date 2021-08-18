@@ -8,11 +8,13 @@ const result = document.getElementById('result')
 const times = document.getElementById('times')
 const errors = document.getElementById('errors')
 
-let mistakes = 0
-let charactersTyped = 0
-let time= 30
-let timeElapsed = 0
+let mistakes=0
+let charactersTyped=0
+let time=30
+let timeElapsed=0
 let timeLeft=time
+let time_const=30
+let theme=2
 
 
 response.addEventListener('input', () => {
@@ -36,7 +38,7 @@ response.addEventListener('input', () => {
 
     if (arrayData.length === arrayResponse.length) NewQuote()
 })
-
+   
 function getQuote() {
   return fetch(API_URL)
     .then(response => response.json())
@@ -72,6 +74,32 @@ function start(){
     result.style.display="none"
     NewQuote()
     clearInterval(timer)
+
+    if (time_const == 15) {
+      document.getElementById('time-choice1').style.color = '#79a616';
+    }
+    else if (time_const == 30) {
+      document.getElementById('time-choice2').style.color = '#79a616';
+    }
+    else if (time_const == 45) {
+      document.getElementById('time-choice3').style.color = '#79a616';
+    }
+    else if (time_const == 60) {
+      document.getElementById('time-choice4').style.color = '#79a616';
+    }
+    if (theme ==  1) {
+      document.getElementById('theme-choice2').style.color = '#79a616';
+    }
+    if (theme ==  2) {
+      document.getElementById('theme-choice2').style.color = '#79a616';
+    }
+    if (theme ==  3) {
+      document.getElementById('theme-choice2').style.color = '#79a616';
+    }
+    if (theme ==  4) {
+      document.getElementById('theme-choice2').style.color = '#79a616';
+    }
+
     timerElement = setInterval(updateTime, 1000);
     timeElapsed=0
     mistakes=0
