@@ -4,6 +4,8 @@ Practice and improve your typing speed and accuracy.
 
 TypingSpeed is live [here](https://arcbadr.github.io/TypingSpeed/).
 
+![TypingSpeed](https://github.com/arcbadr/TypingSpeed/assets/website.png?raw=true)
+
 ## Cloning the repository
 
 You can clone the repository to your local computer to easily fix merge conflicts, add or remove files, and push larger commits.
