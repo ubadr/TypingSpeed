@@ -1,0 +1,18 @@
+{
+  "name": "TypingSpeed",
+  "version": "1.0.0",
+  "description": "<img alt=\"GitHub last commit\" src=\"https://img.shields.io/github/last-commit/ubadr/TypingSpeed\">",
+  "main": "server.js",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

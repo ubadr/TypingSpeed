@@ -1,0 +1,242 @@
+@font-face {
+     font-family: "monolisa_medium";
+          src:url("fonts/MonoLisa-Medium.otf") format('opentype');
+          src:url("fonts/MonoLisa-Medium.ttf") format('truetype');
+}
+
+:root{
+  --gray-color: #191a1b;
+  --pink-color: #ff79b3;
+  --green-color: #79a616;
+  --beige-color: #E2D6CA;
+  --lightgray-color: #48494b;
+  --body-font: "monolisa_medium";
+  --normal-font-size: 20px;
+}
+
+a {
+  color: inherit; 
+  text-decoration: inherit;
+}
+
+body{
+    background-color: var(--gray-color);
+    font-family: var(--body-font);
+    font-size: var(--normal-font-size);
+}
+
+button {
+    padding:0;
+    font-family: var(--body-font);
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+}
+
+textarea{
+    color: var(--green-color);
+}
+
+.logo{
+	font-size: 30px;
+	color:var(--green-color);
+	opacity: .8;
+}
+
+.icons-container{
+	display:inline;
+}
+
+.logo-container{
+	display:inline;
+}
+
+.right-menu{
+	text-align: right;
+	font-size: 10px;
+	color: var(--lightgray-color);
+	position:absolute;
+	right:21vw;
+    top:8vh;
+}
+
+.active{
+	color: var(--green-color);
+}
+
+.time-choice{
+	font-size: 10.3px;
+	color: var(--lightgray-color);
+}
+
+.theme-choice{
+	font-size: 10.3px;
+	color: var(--lightgray-color);
+
+}
+
+.time-choice:hover{
+	color: var(--green-color);
+}
+
+.theme-choice:hover{
+  color: var(--green-color);
+}
+
+.content{
+  position: relative;
+  min-height: 100vh;
+}
+
+.timer {
+  position: relative;
+  font-size: 1.5rem;
+  color: var(--green-color);
+  padding-left: 1.3rem;
+  margin-bottom: 2rem;
+}
+
+.container{
+    margin: 0;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    -ms-transform: translate(-60%, -40%);
+    transform: translate(-50%, -50%);
+    padding-bottom: 3rem;
+}
+
+.wpmtitle{
+    color: var(--lightgray-color);
+}
+
+.wpm{
+    font-size: 60px;
+}
+
+.result{
+    margin-top: 5rem;
+    padding-top: 5rem;
+    display:flex;
+    color: var(--green-color);
+    margin: 0;
+    position: absolute;
+    top: 60%;
+    left: 30%;
+    -ms-transform: translate(-60%, -40%);
+    transform: translate(-30%, -70%);
+    padding-bottom: 3rem;
+}
+
+.quote{
+    line-height: 2.3rem;
+    user-select: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    font-family: var(--body-font);
+    position: absolute;
+    font-size: var(--normal-font-size);
+    border: 1px solid transparent;
+    border-radius: 0.5rem;
+    color: var(--lightgray-color);
+    outline: none;
+    width: 50vw;
+    height: 20vh;
+    resize: none;
+    padding: 0.5rem 1rem;
+    -webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+    -o-filter: blur(5px);
+    -ms-filter: blur(5px);
+    filter: blur(5px);
+}
+
+.input{
+    color: transparent;
+    caret-color: transparent;
+    caret-shape: block;
+    font-family: var(--body-font);
+    font-size: var(--normal-font-size);
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: 0.5rem;
+    outline: none;
+    width: 50vw;
+    height: 30vh;
+    resize: none;
+    padding: 0.5rem 1rem;
+}
+
+.right {
+    color: var(--green-color);
+}
+
+.wrong {
+    color: #c94754;
+    text-decoration: underline;
+}
+
+.reload {
+    background-color: transparent;
+    font-size:25px;
+    color: var(--lightgray-color);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.reload:hover{
+    color: var(--green-color);
+}
+
+
+.fas{
+    font-size: 15px;
+    padding-left: 1vw;
+    color: var(--lightgray-color);
+}
+
+.fas:hover{
+    color: var(--green-color);
+}
+
+.icon-footer{
+    height:15px;
+    width:15px;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 98%;
+  height: 3rem;
+  text-align: center;
+}
+
+.footertext{
+    color: var(--lightgray-color);
+    font-size: 12px;
+}
+
+.footertext:hover{
+    color: var(--green-color);
+}
+
+.version{
+    color: var(--lightgray-color);
+    font-size: 12px;
+}
+
+.container-header{
+    position: absolute;
+    padding-left:17vw;
+    padding-top:5vh;
+    height: 3rem;
+}

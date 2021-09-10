@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head class="header">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="assets/js/script.js" defer></script>
+    <link href="https://use.fontawesome.com/releases/v5.0.7/css/all.css" rel="stylesheet">
+    <title>Typing Speed</title>
+</head>
+
+<body>
+
+    <header> 
+      <div class="container-header">
+        <div class="logo-container">
+          <a href="index.html" class="logo" id="logo">TypingSpeed</a>
+        </div>
+      </div>
+
+      <div class="right-menu">
+          <button><a class="time-choice" id="time-choice1">15</a></button>
+          <button><a class="time-choice" id="time-choice2">30</a></button>
+          <button><a class="time-choice" id="time-choice3">45</a></button>
+          <button><a class="time-choice" id="time-choice4">60</a></button>
+          <br>
+          <button><a class="theme-choice" id="theme-choice1">matrix</a></button>
+          <button><a class="theme-choice" id="theme-choice2">terminal</a></button>
+          <button><a class="theme-choice" id="theme-choice3">miami</a></button>
+          <button><a class="theme-choice" id="theme-choice4">blueberry</a></button>
+      </div>
+    </header>
+
+    <div id="content">
+      <div class="container" id="container">
+        <span class="timer" id="timer"></span>
+        <div class="quote" id="quote"></div>
+        <textarea spellcheck="false" id="text" class="input" autofocus></textarea>
+        <button><i class="fas fa-pause" style="margin-left:23vw"></i></button>
+        <a href="index.html"><button><i class="fas fa-sync-alt"></i></button></a>
+      </div>
+      
+      <div class="result" id="result">
+          <div class="wpmtitle"> WPM: </div>
+          <div class="wpm" id="wpm"></div>
+          <div class="wpmtitle"> Time: </div>
+          <div class="wpm" id="times"></div>
+          <div class="wpmtitle"> Errors: </div>
+          <div class="wpm" id="errors"></div>
+      </div>
+      
+      <footer class="footer" id="footer">
+          <img style="vertical-align:middle" class="icon-footer" src="assets/img/github.png"></img>
+          <button><span class= "footertext" style="">Github</span></button>
+          <img style="vertical-align:middle" class="icon-footer" src="assets/img/security.png"></img>
+          <button><span class= "footertext" style="">Security</span></button>
+          <img style="vertical-align:middle" class="icon-footer" src="assets/img/donate.png"></img>
+          <button><span class= "footertext" style="">Donate</span></button>
+          <span class= "footertext" style="">|</span>
+          <span class= "version" style="">v1.0.3</span>
+          
+      </footer>
+    </div>
+</body>
+</html>
