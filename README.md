@@ -5,8 +5,6 @@
 
 Practice and improve your typing speed and accuracy.
 
-TypingSpeed is live [here](https://ubadr.github.io/TypingSpeed/).
-
 ![TypingSpeed](assets/img/website.png?raw=true)
 
 ## Cloning the repository
